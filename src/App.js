@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./Header";
+import Parameters from "./Parameters";
 
-function App() {
+import "./styles.css";
+
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      <h1>
+        <span>☁️Weathering With You☁️ </span>
+      </h1>
+      <Header />
+      <Parameters />
+      <footer>
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/winnonay/react-workshop.git"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
+          autoFocus="on"
         >
-          Learn React
+          Open source code
         </a>
-      </header>
+      </footer>
     </div>
   );
 }
-
-export default App;
