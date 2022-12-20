@@ -12,9 +12,9 @@ export default function App() {
      
       <footer>
         <a
-          href="https://github.com/winnonay/react-workshop.git"
+          href="https://github.com/winnonay/react-workshop.git" 
+          rel="noopener noreferrer"
           target="_blank"
-          rel="noreferrer"
           autoFocus="on"
         >
           Open source code
