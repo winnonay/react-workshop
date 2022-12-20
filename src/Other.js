@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function Parameters() {
+export default function Other() {
   return (
-    <div className="Parameters">
+    <div className="Other">
       <span className="temperature" id="temperature"></span>°C/
       <span className="fahrenheitConvert" id="fahrenheitConvert"></span>°F
       <ul>

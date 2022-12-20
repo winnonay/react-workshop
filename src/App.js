@@ -1,6 +1,5 @@
 import React from "react";
-import Header from "./Header";
-import Parameters from "./Parameters";
+import Weather from "./Weather";
 
 import "./styles.css";
 
@@ -10,8 +9,7 @@ export default function App() {
       <h1>
         <span>☁️Weathering With You☁️ </span>
       </h1>
-      <Header />
-      <Parameters />
+     
       <footer>
         <a
           href="https://github.com/winnonay/react-workshop.git"
