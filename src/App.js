@@ -9,7 +9,7 @@ export default function App() {
       <h1>
         <span>☁️Weathering With You☁️ </span>
       </h1>
-     
+     <Weather defaultCity="New York"/>
       <footer>
         <a
           href="https://github.com/winnonay/react-workshop.git" 

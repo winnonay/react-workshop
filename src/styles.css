@@ -13,11 +13,12 @@ body {
   text-align: center;
 }
 h1 {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .Parameters {
   text-align: center;
+  line-height: 25px;
   margin: 30px;
   border-radius: 4px;
   padding: 25px 10px;
