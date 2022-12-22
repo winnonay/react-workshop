@@ -1,5 +1,6 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
+import WeatherTemperature from "./WeatherTemperature";
 
 export default function WeatherSearch(props) {
     return (
@@ -8,8 +9,10 @@ export default function WeatherSearch(props) {
     <h1>{props.data.city}</h1>
 
     <ul>
-        <li>  <img src={props.data.iconUrl} alt={props.data.description} className="float-left"/> </li>
-      <li>{Math.round(props.data.temperature)}°C</li>
+        <li>  <img src={props.data.iconUrl} alt="icon-image" /> </li>
+        <li>{props.data.description}</li>
+        <br />
+      <li><WeatherTemperature celsius={props.data.temperature} /></li>
       <li>Humidity: {props.data.humidity}%</li>
       <li>Wind Speed:{Math.round(props.data.wind)} km/h</li>
     </ul>

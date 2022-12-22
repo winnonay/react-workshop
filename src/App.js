@@ -1,15 +1,21 @@
 import React from "react";
 import Weather from "./Weather";
+import myGif from "./greeting.gif";
 
 import "./styles.css";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>
-        <span>☁️Weathering With You☁️ </span>
+     <img src={myGif} 
+           alt="myGif" 
+           width="75px"
+           height="60px"
+            />
+      <h1> 
+       Weathering With You
       </h1>
-     <Weather defaultCity="New York"/>
+     <Weather defaultCity="New York" />
       <footer>
         <a
           href="https://github.com/winnonay/react-workshop.git" 
