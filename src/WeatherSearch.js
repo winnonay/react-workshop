@@ -9,7 +9,7 @@ export default function WeatherSearch(props) {
     <h1>{props.data.city}</h1>
 
     <ul>
-        <li>  <img src={props.data.iconUrl} alt="icon-image" /> </li>
+        <li>  <img src={props.data.iconUrl} alt="icon" /> </li>
         <li>{props.data.description}</li>
         <br />
       <li><WeatherTemperature celsius={props.data.temperature} /></li>
