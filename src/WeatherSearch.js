@@ -14,7 +14,7 @@ export default function WeatherSearch(props) {
         <br />
       <li><WeatherTemperature celsius={props.data.temperature} /></li>
       <li>Humidity: {props.data.humidity}%</li>
-      <li>Wind Speed:{Math.round(props.data.wind)} km/h</li>
+      <li>Wind Speed: {Math.round(props.data.wind)} km/h</li>
     </ul>
     </div>
 );
