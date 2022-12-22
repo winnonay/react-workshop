@@ -8,7 +8,7 @@ export default function App() {
   return (
     <div className="App">
      <img src={myGif} 
-           alt="hello" 
+   
            width="75px"
            height="60px"
             />
