@@ -1,6 +1,7 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
 import WeatherTemperature from "./WeatherTemperature";
+import WeatherForecast from "./WeatherForecast";
 
 export default function WeatherSearch(props) {
     return (
@@ -16,6 +17,7 @@ export default function WeatherSearch(props) {
       <li>Humidity: {props.data.humidity}%</li>
       <li>Wind Speed: {Math.round(props.data.wind)} km/h</li>
     </ul>
+    <WeatherForecast />
     </div>
 );
 }
