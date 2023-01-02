@@ -11,7 +11,7 @@ export default function WeatherForecastDays(props) {
 
     function minTemp() {
         let temperature = Math.round(props.data.temp.min);
-        return `${temperature};`
+        return `${temperature}`;
 
     }
     function day() {
@@ -25,8 +25,8 @@ export default function WeatherForecastDays(props) {
         <div className="Weather-days">{day()}</div>
              <WeatherIcon code={props.data.weather[0].icon} />
              <div className="Weather-temp">
-                 <span className="Weather-tempmax">{maxTemp()}°C</span>
-                 <span className="Weather-tempmin"> {minTemp()}°C</span>
+                 <span className="Weather-tempmax">Max{maxTemp()}°C</span>
+                 <span className="Weather-tempmin">Min{minTemp()}°C</span>
              </div>
              </div>
        
