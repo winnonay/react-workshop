@@ -16,7 +16,7 @@ export default function App() {
        Weathering With You
       </h1>
      <Weather defaultCity="New York" />
-      <footer>
+      <footer className="footer">
         <a
           href="https://github.com/winnonay/react-workshop.git" 
           rel="noopener noreferrer"
@@ -24,6 +24,14 @@ export default function App() {
           autoFocus="on"
         >
           Open source code
+        </a>
+      by
+      <a 
+      href="https://dazzling-marigold-4d0e06.netlify.app/" 
+      rel="noopener noreferrer" 
+      target="_blank" 
+      autoFocus="on">
+        Winnie Li
         </a>
       </footer>
     </div>
