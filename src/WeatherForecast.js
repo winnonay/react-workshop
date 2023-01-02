@@ -28,15 +28,17 @@ if (loaded) {
         <div className="WeatherForecast">
         <div className="row">
             
-                {forecast.map((forecastDay,index) => {
-                    if (index < 7) {
-                  return (
-                  <div className="col" key={index}>
-                    <WeatherForecastDays data={forecastDay} />
-                    </div>
-                  );
-                    }
-                })}
+        {forecast.map((forecastDay, index) => {
+            if (index < 7) {
+              return (
+                <div className="col" key={index}>
+                  <WeatherForecastDays data={forecastDay} />
+                </div>
+              );
+            } else {
+              return null;
+            }
+          })}
         </div>   
     </div>
     );
