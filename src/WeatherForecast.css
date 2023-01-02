@@ -1,5 +1,6 @@
 .WeatherForecast {
     text-align: center;
+    column-count: 7;
 }
 .Weather-tempmin {
     color:aquamarine;
