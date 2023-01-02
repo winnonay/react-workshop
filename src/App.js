@@ -25,7 +25,9 @@ export default function App() {
         >
           Open source code
         </a>
+        {" "}
       by
+      {" "}
       <a 
       href="https://dazzling-marigold-4d0e06.netlify.app/" 
       rel="noopener noreferrer" 
